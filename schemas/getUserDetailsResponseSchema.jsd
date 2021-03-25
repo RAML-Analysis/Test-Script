@@ -1,0 +1,36 @@
+{
+	"title": "List of user object",
+	"type": "object",
+	"items": {
+		"properties": {
+			"id": {
+				"description": "User ID",
+				"type": "integer"
+			},
+			"username": {
+					"type": "string"
+			},
+			"email": {
+					"type": "string"
+			},
+			"password": {
+					"type": "string"
+			},
+			"phone": {
+					"type": "string"
+			},
+			"userStatus": {
+					"type": "integer"
+			}		
+		}
+	},
+"required": [
+		"id",
+		"username",
+		"email",
+		"password",
+		"phone",
+		"userStatus"
+		
+	]
+}
